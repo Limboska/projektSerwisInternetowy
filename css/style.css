@@ -1,2 +1,108 @@
-#header { background-color: blue; }
-.blue { background-color: blue; }
+/* style paska nawigacji*/
+#body{
+    margin: 0px;
+}
+#logo { 
+    background-color: white;
+    position: relative;
+    left: 80px;
+    width: 50%;
+    }
+
+#navbar { background-color: none;
+    font-size: 20px;
+    font-family: "Open Type", serif;
+    text-align: left;
+    position: relative;
+    top: -75px;
+    right: -1250px;
+    display: inline-block;
+    padding: 10px;
+    }
+
+#navbar a {
+    color: black;
+    font-style: unset;
+    font-family: "Minimal";
+    font-size: 25px;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    }
+
+#socialmedia {
+    position: relative;
+    top: -30px;
+    right: -525px;
+    width: 21%;
+    height: 40%;
+    }
+
+#line{
+    position: relative;
+    text-align: center;
+    top: -100px;
+    height:2px;
+    width: 1000px;
+    border-width:0;
+    color: black;
+    background-color: black;
+    }
+
+/* style głównego banera*/
+#mainimage {
+    position: relative;
+    top: -80px;
+    }
+
+/* część główmna*/
+#main_heading {
+    color: black;
+    text-align: center;
+    font-family: "Minimal";
+    position: relative;
+    top: -80px;
+    font-size: 40px;
+    }
+/* część główmna*/
+#basic_information_box {
+    border-color: black;
+    border: 3px solid;
+    width: 100%;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+
+/* style stopki*/
+#footer {
+    background-color: #c29669;
+    }
+
+#color_block {
+    background-color: #c29669;
+    width: 100%;
+    height: 200px;
+    }
+
+#left_half {
+    height: 100%;
+    width: 50%;
+    left: 0;
+    font-family: "Minimal";
+    color: white;
+    margin-left: 10px;
+    margin-top: 10 px;
+    }
+
+#right_half {
+    position: absolute;
+    top: 1350px;
+    height: 200px;
+    width: 50%;
+    right: 0;
+    font-family: "Minimal";
+    color: white;
+    margin-left: 10px;
+    margin-top: 10 px;
+    }
