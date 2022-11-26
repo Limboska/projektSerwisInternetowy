@@ -1,108 +1,133 @@
-/* style paska nawigacji*/
-#body{
-    margin: 0px;
+body {
+	margin: 0px;
 }
-#logo { 
-    background-color: white;
-    position: relative;
-    left: 80px;
-    width: 50%;
-    }
 
-#navbar { background-color: none;
-    font-size: 20px;
-    font-family: "Open Type", serif;
-    text-align: left;
-    position: relative;
-    top: -75px;
-    right: -1250px;
-    display: inline-block;
-    padding: 10px;
-    }
+/* style paska nawigacji*/
+header {
+	background-color: white;
+}
 
-#navbar a {
-    color: black;
-    font-style: unset;
-    font-family: "Minimal";
-    font-size: 25px;
-    display: inline-block;
-    padding: 0px 10px 0px 10px;
-    text-decoration: none;
-    }
+header::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
 
-#socialmedia {
-    position: relative;
-    top: -30px;
-    right: -525px;
-    width: 21%;
-    height: 40%;
-    }
+.pudelko {
+	width: 100%;
+	margin: 0;
+}
 
-#line{
-    position: relative;
-    text-align: center;
-    top: -100px;
-    height:2px;
-    width: 1000px;
-    border-width:0;
-    color: black;
-    background-color: black;
-    }
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background-color: white;
+	box-shadow: 0 2px 4px 0 black;
+}
 
-/* style głównego banera*/
-#mainimage {
-    position: relative;
-    top: -80px;
-    }
+nav a {
+	color: black;
+	font-style: unset;
+	font-family: "Minimal";
+	font-size: 25px;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+nav ul {
+	margin: 29px;
+	padding: 10px;
+	list-style: none;
+	display: inline-block;
+}
+
+nav li {
+	display: inline-block;
+}
+
+.logo {
+	background-color: white;
+	position: relative;
+	float: left;
+	z-index: 1;
+	left: 40px;
+}
+
+#prawa_strona {
+	float: right;
+}
+
+#socialmedia img {
+	width: 30px;
+	position: relative;
+	right: 10px;
+	padding: 0 1px;
+	top: 5px;
+	display: inline-block;
+}
+
+#line {
+	text-align: center;
+	position: relative;
+	height: 2px;
+	width: 70%;
+	border-width: 0;
+	color: black;
+	background-color: black;
+}
 
 /* część główmna*/
 #main_heading {
-    color: black;
-    text-align: center;
-    font-family: "Minimal";
-    position: relative;
-    top: -80px;
-    font-size: 40px;
-    }
+	color: black;
+	text-align: center;
+	font-family: "Minimal";
+	font-size: 40px;
+}
 /* część główmna*/
 #basic_information_box {
-    border-color: black;
-    border: 3px solid;
-    width: 100%;
-    height: 200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    }
+	border-color: black;
+	border: 3px solid;
+	height: 100%;
+	margin: 30px;
+}
+
+#rodzaje{
+	border-color: black;
+	border: 3px solid;
+	height: 100%;
+	margin: 30px;
+	display: table;
+}
 
 /* style stopki*/
-#footer {
-    background-color: #c29669;
-    }
+footer {
+	margin: 0px;
+}
 
 #color_block {
-    background-color: #c29669;
-    width: 100%;
-    height: 200px;
-    }
+	
+	height: 200px;
+	display: inline-block;
+}
 
 #left_half {
-    height: 100%;
-    width: 50%;
-    left: 0;
-    font-family: "Minimal";
-    color: white;
-    margin-left: 10px;
-    margin-top: 10 px;
-    }
+	background-color: #c29669;
+	height: 100%;
+	width: 50%;
+	left: 0;
+	font-family: "Minimal";
+	color: white;
+	display: inline-block;
+}
 
 #right_half {
-    position: absolute;
-    top: 1350px;
-    height: 200px;
-    width: 50%;
-    right: 0;
-    font-family: "Minimal";
-    color: white;
-    margin-left: 10px;
-    margin-top: 10 px;
-    }
+	background-color: wheat;
+	height: 200px;
+	width: 50%;
+	right: 0;
+	font-family: "Minimal";
+	color: white;
+	display: inline-block;
+}
